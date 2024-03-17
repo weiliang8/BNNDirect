@@ -29,7 +29,7 @@ Written in Javascript and Chrome Extension Manifest V3<br><br>
 ``popup.js``
 * Executes when the extension's popup window is opened
 * Waits for the page DOM to be fully loaded, including all deferred scripts, and updates the popup UI based on the webpage
-* Communicates with contentScript.js to send a request to [BNNDirect_API](https://github.com/weiliang8/BNNDirect_API/tree/main) to retrieve the corresponding BnnBloomberg article.
+* Communicates with contentScript.js to send a request to [BNNDirect_API](https://github.com/weiliang8/BNNDirect_API/tree/main) to retrieve the corresponding BnnBloomberg article
 
 ## Installation
 1. Download the main repository as zip file and unzip it
