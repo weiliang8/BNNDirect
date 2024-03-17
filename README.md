@@ -33,7 +33,7 @@ Written in Javascript and Chrome Extension Manifest V3<br><br>
 
 ## Installation
 1. Download the main repository as zip file and unzip it
-2. Replace ``BNNDIRECT_API_HOST_URL`` in ContentScript.js line 33 with ypur BNNDirect_API Host URL
+2. Replace ``BNNDIRECT_API_HOST_URL`` in ContentScript.js line 33 with ypur BNNDirect_API Host URL that return the result URL to be redirected to
 3. Open your Chrome browser and go to ``chrome://extensions/``
 4. Turn on developer mode by toggling the button located at the top right of the page
 5. Click load unpacked to upload the unzipped folder
