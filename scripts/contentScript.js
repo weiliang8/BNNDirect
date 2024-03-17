@@ -41,7 +41,7 @@ var fetchSearchResults = async (articleTitle) => {
         })
 
         if (!response.ok) {
-            console.log( "\response.status;: "+response.status)
+            console.log( "response.status: "+response.status)
             const message = response.status;
             return ({
                 success:false,
