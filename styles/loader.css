@@ -1,0 +1,96 @@
+.circle-loader {
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0,0.2);
+  border-left-color: #000000;
+  animation: loader-spin 1.2s infinite linear;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.load-complete {
+  -webkit-animation: none;
+  animation: none;
+  border-color: #FFFFFF;
+  background-color: #5cb85c;
+  transition: border 500ms ease-out;
+}
+
+.checkmark {
+  display: none;
+  
+  &.draw:after {
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-name: checkmark;
+    transform: scaleX(-1) rotate(135deg);
+  }
+  
+  &:after {
+    opacity: 1;
+    height: 10px;
+    width: 5px;
+    transform-origin: left top;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    content: '';
+    left: 4.33px;
+    top: 10px;
+    position: absolute;
+  }
+}
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 5px;
+    opacity: 1;
+  }
+  40% {
+    height: 10px;
+    width: 5px;
+    opacity: 1;
+  }
+  100% {
+    height: 10px;
+    width: 5px;
+    opacity: 1;
+  }
+}
+
+.rectangle {
+  width: 50px; 
+  height: 2px; 
+  background-color: #D2D2D2;
+  display: inline-block;
+  position: relative;
+top:-5px
+}
+
+.pending{
+  animation: none;
+  position: relative;
+  display: display;
+  width: 13.33px;
+  height: 13.33px;
+  background-color: #D2D2D2; 
+  border-radius: 50%; 
+  border:0px;
+}

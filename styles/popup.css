@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url('../library/fonts/GoogleSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mark Pro';
+    src: url('../library/fonts/MarkPro.otf') format('opentype');
+}
+
+html {
+    width: 279px;
+    /* height: 60px; */
+    background: #FFFFFF;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#inner-body {
+    background: #FAFAFA;
+    height: 100%;
+    /* padding: 15px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* For main header */
+iframe {
+    height: 20px;
+    border: none;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+#main-header-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#main-header-1 {
+    /* font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000; */
+    width: 71px;
+    height: 15px;
+}
+
+#main-header-2 {
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #5D5D5D;
+    margin-left: 1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#header-3 {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+
+}
+
+#text-1 {
+    margin-top: 4px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    text-align: center;
+    color: #666666;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+
+#icon_external {
+    width: 12px;
+    height: 12px;
+    float: right;
+    margin-right: 30px;
+}
+
+#loader-body {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#error-code {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    text-align: center;
+    color: #666666;
+    text-align: center;
+    background: #FAFAFA;
+}
